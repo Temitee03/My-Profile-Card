@@ -1,0 +1,48 @@
+
+/* Reset */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+/* Body styles */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(135deg, #2b5876, #4e4376); /*gradient background */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Card */
+.Card {
+    background-color: beige;
+    padding: 30px 40px;
+    border-radius: 15px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(red, green, blue, alpha);
+}
+
+.name {
+    font-family: 'Verdana' cursive;
+    font-size: 2.5rem;
+    color:darkslateblue;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-size: 1rem;
+    color: beige;
+    margin-bottom: 15px;
+}
+
+.quote {
+    font-style: italic;
+    color:darkslateblue;
+    font-size: 1.1rem;
+    border-left: 4px solid color(srgb red green blue);
+    padding-left: 15px;
+}
